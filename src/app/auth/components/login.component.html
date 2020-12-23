@@ -1,0 +1,130 @@
+<div class="d-flex align-items-center min-h-100">
+  <!-- ========== HEADER ========== -->
+  <header class="position-absolute top-0 left-0 right-0 mt-3 mx-3">
+    <div class="d-flex d-lg-none justify-content-between">
+      <a href>
+        <img class="w-100" src="assets/svg/logos/logo.svg" alt="Image Description" style="min-width: 7rem; max-width: 7rem;">
+      </a>
+
+      <!-- Select -->
+      <!-- End Select -->
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main" class="main pt-0">
+    <!-- Content -->
+    <div class="container-fluid px-3">
+      <div class="row">
+        <!-- Cover -->
+        <div class="col-lg-6 d-none d-lg-flex justify-content-center align-items-center min-vh-lg-100 position-relative bg-light px-0">
+          <!-- Logo & Language -->
+          <div class="position-absolute top-0 left-0 right-0 mt-3 mx-3">
+            <div class="d-none d-lg-flex justify-content-between">
+              <a href>
+                <img class="w-100" src="assets/svg/logos/logo.svg" alt="Image Description" style="min-width: 7rem; max-width: 7rem;">
+              </a>
+
+              <!-- End Select -->
+            </div>
+          </div>
+          <!-- End Logo & Language -->
+
+          <div style="max-width: 23rem;">
+            <div class="text-center mb-5">
+              <img class="img-fluid" src="assets/svg/illustrations/placeholder.png" alt="Image Description" style="width: 12rem;">
+            </div>
+
+            <div class="mb-5">
+              <h2 class="display-4">Product Info</h2>
+            </div>
+
+            <!-- List Checked -->
+            <ul class="list-checked list-checked-lg list-checked-primary list-unstyled-py-4">
+              <li class="list-checked-item">
+                <span class="d-block font-weight-bold mb-1">Boiler plate</span>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </li>
+
+              <li class="list-checked-item">
+                <span class="d-block font-weight-bold mb-1">Kick start&amp; manage your services</span>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              </li>
+            </ul>
+            <!-- End Row -->
+          </div>
+        </div>
+        <!-- End Cover -->
+
+        <div class="col-lg-6 d-flex justify-content-center align-items-center min-vh-lg-100">
+          <div class="w-100 pt-10 pt-lg-7 pb-7" style="max-width: 25rem;">
+            <!-- Form -->
+            <form class="js-validate">
+              <div class="text-center mb-5">
+                <h1 class="display-4">Sign in</h1>
+                <p>Don't have an account yet? <a [routerLink]="['/auth/register']" routerLinkActive="router-link-active"  >Sign up here</a></p>
+              </div>
+
+              <div class="mb-4">
+                <a class="btn btn-lg btn-white btn-block" href="#">
+                  <span class="d-flex justify-content-center align-items-center">
+                    <img class="avatar avatar-xss mr-2" src="assets/svg/brands/google.svg" alt="Image Description">
+                    Sign up with Google
+                  </span>
+                </a>
+              </div>
+
+              <div class="text-center mb-4">
+                <span class="divider text-muted">OR</span>
+              </div>
+
+              <!-- Form Group -->
+              <div class="js-form-message form-group">
+                <label class="input-label" for="signupSrEmail">Your email</label>
+
+                <input type="email" class="form-control form-control-lg" name="email" id="signupSrEmail" placeholder="Markwilliams@example.com" aria-label="Markwilliams@example.com" required data-msg="Please enter a valid email address.">
+              </div>
+              <!-- End Form Group -->
+
+              <!-- Form Group -->
+              <div class="js-form-message form-group">
+                <label class="input-label" for="signupSrPassword" tabindex="0">
+                  <span class="d-flex justify-content-between align-items-center">
+                    Password
+                    <a class="input-label-secondary" href="authentication-reset-password-cover.html">Forgot Password?</a>
+                  </span>
+                </label>
+
+                <div class="input-group input-group-merge">
+                  <input type="password" class="js-toggle-password form-control form-control-lg" name="password" id="signupSrPassword" placeholder="8+ characters required" aria-label="8+ characters required" required data-msg="Your password is invalid. Please try again.">
+                  <div id="changePassTarget" class="input-group-append">
+                    <a class="input-group-text" href="javascript:;">
+                      <i id="changePassIcon" class="tio-visible-outlined"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Form Group -->
+
+              <!-- Checkbox -->
+              <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="termsCheckbox" name="termsCheckbox">
+                  <label class="custom-control-label font-size-sm text-muted" for="termsCheckbox"> Remember me</label>
+                </div>
+              </div>
+              <!-- End Checkbox -->
+
+              <button type="submit" class="btn btn-lg btn-block btn-primary">Sign in</button>
+            </form>
+            <!-- End Form -->
+          </div>
+        </div>
+      </div>
+      <!-- End Row -->
+    </div>
+    <!-- End Content -->
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+</div>
